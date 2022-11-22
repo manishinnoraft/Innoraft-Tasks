@@ -1,0 +1,75 @@
+.body{
+    width: 100%;
+    height:100% ;
+}
+header{
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: max-content;
+    justify-content: flex-end;  
+}
+
+.item{
+    margin: 5px;
+    padding-top: 50px;
+    
+}
+.spanitem{
+    margin-right: 10%;
+
+}
+#imagelogo{
+    margin-right: 50%;
+}
+.images{
+    width: 50px;
+    height: 50px;
+    margin: 30px;
+}
+.box2{
+    height: 200px;
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.formtext{
+    background-color: transparent;
+    opacity: 0.5;
+    margin: 20px;
+}
+
+
+
+footer{
+    display: flex;
+    width:100% ;
+    height: max-content;
+    background-color: steelblue;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    justify-content: center;
+    margin-top: 10px;
+}
+.div1{
+    height: 200px;
+    width: 660px;
+    background-color: blue;
+    margin: 10px;
+}
+.div2{
+    height:145px;
+    width: 620px;
+
+   
+    
+}
+.sidediv{
+    position: absolute;
+    right: 10px;
+    top: 0px;
+}
