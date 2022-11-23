@@ -1,0 +1,25 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 2</title>
+</head>
+<body>
+    <header style="padding: 20px; border:1px solid transparent; background-color: greenyellow; text-align: center;">Click me to slide down/slide up Panel</header>
+    <div style="background-color: skyblue;  height: 200px; text-align: center; padding-top: 250px; font-size: 32px;">Hello World</div>
+</body>
+<script src="jquery-3.6.1.js"></script>
+<script>
+    $('div').hide(1);
+    $(document).ready(function(){
+        $('header').click( function(){
+            $('div').slideToggle(1000);
+        }
+            
+        )
+
+    });
+
+</script>
+</html>

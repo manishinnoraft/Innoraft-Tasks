@@ -1,0 +1,29 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <div id="reddiv" style="height: 150px; width:150px; margin: 20px; background-color: red;"></div>
+        <p style="margin:20px; "> Hide the red box on Button click</p>
+        <button class="btn" style="margin:20px; position:fixed">Click me</button>
+
+    </div>
+    
+</body>
+<script src="jquery-3.6.1.js"></script>
+<script>
+    $(document).ready( function(){
+
+        $('.btn').click( function(){
+            $('#reddiv').fadeToggle(1,function(){
+                $('p').text("Show/Hide the red box on button click")
+            });
+        });
+    }
+        );
+</script>
+</html>
