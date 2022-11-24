@@ -1,0 +1,37 @@
+body{
+   
+    margin-left: 30px;
+    margin-right:30px ;
+
+}
+.headerclass{
+    height: max-content;
+}
+
+.btnread:hover{
+    background-color: yellow !important;
+    color: black !important;
+
+}
+.headeritem{
+  margin: 10px;
+
+  color: gray;
+}
+.headeritem:hover{
+    color: black;
+}
+.headerclass div{
+   position: absolute;
+   right: 45px;
+   top: 15px;
+   
+  
+}
+
+
+.lastclass img{
+    opacity: 0.4;
+}
+
+
