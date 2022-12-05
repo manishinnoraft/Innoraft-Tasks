@@ -1,0 +1,443 @@
+html {
+    overflow-x: hidden;
+    
+}
+
+main {
+    margin: 20px 15%;
+
+}
+
+
+/* Header CSS  Start */
+header img {
+    float: left;
+
+}
+
+header {
+    font-family: 'M PLUS 1p', sans-serif;
+   text-align: center;
+
+    margin: auto;
+}
+
+.navitem  {
+    
+    margin-top: 9px;
+    display: inline-block;
+    
+}
+
+
+#imglogo {
+    margin-left: -20px;
+}
+
+
+
+.navitem span {
+  
+    margin-right: 20px;
+}
+
+.navitem span:hover {
+    cursor: pointer;
+    color: rgb(211, 32, 211);
+    border-bottom: 2px solid rgb(211, 32, 211);
+}
+
+.navitem {
+    margin-left: 20%;
+}
+
+#searchbar {
+    border-radius: 0px 15px 15px 0px;
+    padding: 10.5px;
+
+
+    border: 1px solid grey;
+    justify-content: center;
+    position: absolute;
+    border-left: transparent;
+
+}
+
+#searchicon {
+    border: 1px solid grey;
+    border-radius: 15px 0px 0px 15px;
+    padding: 8px;
+    border-right: transparent;
+}
+
+/* Header CSS Over */
+
+/* About Us CSS */
+.page1 {
+    display: inline-block;
+    font-family: 'M PLUS 1p', sans-serif;
+
+}
+
+#para2 {
+    font-size: 72px;
+    margin: 10px 0px;
+}
+
+#girlpicid {
+    margin-right: -120px;
+    float: right;
+    height: 500px;
+
+}
+
+.page1content {
+    margin-top: 100px;
+    float: left;
+
+
+}
+
+/* About Us CSS Over here */
+
+
+
+/* Page 2 css */
+.div1 {
+    width: 28%;
+
+}
+
+.pinkpara {
+    color: rgb(197, 14, 197);
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.page2content {
+    width: 100%;
+
+    justify-content: space-between;
+
+
+}
+
+.div1 {
+    display: inline-block;
+    margin-right: 5%;
+}
+
+/* Page 2 CSS over here */
+
+/* Page 3 css starts here */
+.page3 {
+    margin-top: 50px;
+    font-family: 'M PLUS 1p', sans-serif;
+
+
+}
+
+.page3img {
+
+
+    float: left;
+    height: max-content;
+    width: max-content;
+
+    margin-left: -10%;
+}
+
+.page3content {
+    padding-top: 50px;
+    margin-left: 50px;
+    width: 40%;
+    display: inline-block;
+}
+
+.innerpage3 {
+
+    height: max-content;
+}
+
+.innerpage3 div {
+    float: left;
+
+}
+
+.innercontent {
+
+    float: right;
+    height: max-content;
+    width: 250px;
+
+}
+
+/* page 3 css over here */
+
+/* Page 4 content starts here */
+
+.page4 {
+    font-family: 'M PLUS 1p', sans-serif;   
+    width: 100%;
+
+
+
+}
+
+.box {
+    background-color: white;
+    padding: 10px;
+    box-shadow: 1px 1px 1px 1px gray;
+    width: 250px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.flexitem1 {
+    display: inline-block;
+    margin-left: 20%;
+
+}
+
+.flexitem2,
+.flexitem3 {
+    display: inline-block;
+
+}
+
+.page4 {
+    padding: 20px;
+    font-family: 'M PLUS 1p', sans-serif;
+
+    background-color: rgb(187, 144, 226, 0.2);
+}
+
+.flexitem2 {
+    margin-top: 20px;
+}
+
+.flexitem3 {
+    margin-top: 50px;
+    padding: 10px;
+    width: 250px;
+    border-radius: 10px;
+
+}
+
+.box:hover {
+    background-color: rgb(239, 14, 239);
+    color: white;
+}
+
+.rdmorebutton:hover {
+    background-color: rgb(239, 14, 239);
+    color: white;
+    border-color: rgb(239, 14, 239);
+    ;
+}
+
+.rdmorebutton {
+    padding: 5px 10px;
+    border-radius: 25px;
+
+}
+
+/* Page 4 css over here */
+/* Page 5 css starts */
+.page5 {
+    font-family: 'M PLUS 1p', sans-serif;
+    text-align: center;
+    height: max-content;
+    margin: 20px;
+    
+    width: 90%;
+}
+.fadelittleimg{
+    height:250px;
+    width:100%;
+}
+
+.imgpass {
+    position: relative;
+    width: 20%;
+    margin: 20px;
+    display: inline-block;
+
+
+
+}
+
+.fontitems {
+    position: absolute;
+    height: fit-content;
+    background-color: white;
+    width: 100%;
+    left: 10%;
+    box-shadow: 1px 1px 1px 1px gray;
+    bottom: -10%;
+}
+
+
+
+.fadelittleimg {
+    opacity: 0.5;
+}
+
+.imgpass:hover .fadelittleimg {
+    opacity: 1;
+}
+
+.imgpass:hover .fontitems h5 {
+    color: rgb(209, 10, 209);
+}
+
+#rdmorebutton1:hover {
+    background-color: rgb(239, 14, 239);
+    color: white;
+    border-color: rgb(239, 14, 239);
+}
+
+#rdmorebutton1 {
+    margin-top: 50px;
+
+    padding: 5px 10px;
+    border-radius: 25px;
+
+}
+
+/* page 5 over here */
+
+/* page 6 starts here */
+
+#btn8yrs {
+    height: 100px;
+    width: 100px;
+    margin: 0px;
+    float: left;
+    color: white;
+    background-color: rgb(154, 38, 238);
+    border: 15px solid rgb(147, 115, 244);
+    border-radius: 55px;
+}
+
+.page8 {
+    margin: 0px 15%;
+    font-family:  'sans-serif';
+
+
+}
+
+.page8 span {
+    margin-right: 70px;
+    display: inline-block;
+}
+
+.dialoguediv p {
+    display: inline-block;
+}
+
+.dialoguediv {
+
+    justify-content: space-between;
+    background-color: blueviolet;
+    align-items: center;
+    width: 60%;
+    color: white;
+    margin: 40px 20%;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.dialoguedivbtn {
+    border-radius: 25px;
+    height: 30px;
+    margin: 10px;
+    padding: 5px 20px;
+
+    float: right;
+    color: white;
+    border: 1px solid white;
+    background-color: blueviolet;
+
+}
+
+.dialoguedivbtn:hover {
+    cursor: pointer;
+    background-color: rgb(244, 10, 221);
+
+}
+
+/* Page 6 ends here */
+/* Last div starts here */
+
+.lastdiv {
+    margin: 40px 20%;
+
+}
+
+.lastdivblock {
+    width: 30%;
+    float: left;
+
+    margin-right: 5%;
+
+}
+
+.lastdivblock1 {
+    margin-right: 5%;
+    width: 30%;
+    display: inline-block;
+
+
+}
+
+.lastdivblock2 {
+    margin-right: 10%;
+    width: 20%;
+    float: right;
+
+
+}
+
+.hoverblock p:hover {
+    color: blue !important;
+}
+
+/* Last div CSS over here */
+
+/* Footer css starts here */
+footer{
+    margin:40px 20% ; border-top: 1px solid black;
+}
+.iconsocial {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+footer p{
+    display: inline-block;
+}
+
+.footerpara{
+    font-size: 12px; font-weight:lighter;color:gray;
+}
+
+.shareicon {
+    float: right;
+    margin-top: 16px;
+    margin-right: 0px;
+}
+
+/* Footer CSS ends here */
+
+.samedesign {
+    margin-top: -10px;
+    border-bottom: 1px solid rgb(225, 10, 225);
+    width: 25px;
+}
+
+.iconsocial:hover {
+    filter: sepia(100%) hue-rotate(190deg) saturate(00%);
+    cursor: pointer;
+}
