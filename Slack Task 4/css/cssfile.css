@@ -1,0 +1,596 @@
+body {
+    overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
+}
+
+.aligncenter {
+    text-align: center;
+}
+
+.alignright {
+    float: right;
+}
+
+.aligninlineblock {
+    display: inline-block;
+}
+
+.darkgraytext {
+    color: rgb(128, 125, 125);
+}
+
+/* Header html starts */
+
+.mountaindiv {
+
+    width: 100%;
+    border-radius: 0px 0px 50px 50px;
+    background-image: linear-gradient(180deg,
+            rgba(243, 10, 247, 0.4),
+            rgba(243, 226, 239, 0.2)), url("images/mountain1.jpeg");
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.iconclass {
+    background-color: rgba(214, 170, 209);
+    list-style-type: none;
+    float: left;
+    width: max-content;
+    padding: 10px;
+    border-right: 1px solid black;
+}
+
+.iconclass:hover {
+    cursor: pointer;
+    background-image: linear-gradient(rgb(242, 241, 246), rgba(246, 17, 220, 0.5));
+
+}
+
+.iconclass img {
+    width: 20px;
+    height: 20px;
+}
+
+.imgclass {
+    height: max-content;
+
+    width: max-content;
+    padding: 0px;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+/* Header CSS ends here */
+/* Profile secton CSS starts here */
+#btnimg {
+    border-radius: 90px;
+    border: 10px solid white;
+}
+
+#intro1 {
+    text-align: center;
+    margin-top: -100px;
+
+
+}
+
+#intro p {
+    color: gray;
+}
+
+#btnimg img {
+    border-radius: 90px;
+    border: none;
+}
+
+.hideme p {
+    color: red;
+    margin-left: -10px;
+}
+
+.hideme {
+    position: absolute;
+    right: 50px;
+    display: inline-block;
+    background-color: black;
+
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+}
+
+.hideme p {
+    position: relative;
+    left: 30px;
+}
+
+/* Profile Section CSS Ends here */
+/* Profile card box css starts here  */
+.headingfirst {
+    margin: 0px 0px 10px 8px;
+}
+
+.trisection {
+    overflow: hidden;
+    border: 1px solid rgb(128, 128, 128, 0.5);
+    padding: 1%;
+    border-radius: 10px;
+    width: 25%;
+    margin: 3%;
+    position: relative;
+
+    display: inline-block;
+
+}
+
+.trisectionimg {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 15px;
+    right: 25px;
+}
+
+/* Profile card box css ends here */
+/* About me section CSs starts */
+.downloadnowdiv {
+    width: max-content;
+    display: inline-block;
+    background-color: red;
+    padding: 0px 5px;
+    border-radius: 55px;
+}
+
+.girlpicdiv {
+    display: inline-block;
+    height: 480px;
+    width: 30%;
+    border-radius: 50px;
+    overflow: hidden;
+    object-fit: fill;
+}
+
+.sitenamealign {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.letsgodiv {
+    margin-left: 30px;
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: red;
+    border-radius: 30px;
+    padding: 5px;
+    position: absolute;
+}
+
+.letsgodiv p {
+    position: relative;
+    left: 20px;
+    top: -5px;
+    width: max-content;
+}
+
+.aboutmecontentdiv {
+    width: 50%;
+    height: 480px;
+    margin-right: 10%;
+    float: right;
+}
+
+.numparadiv {
+    width: max-content;
+    display: inline-block;
+    margin: 10px;
+}
+
+.envatodiv {
+    height: 20px;
+    width: 20px;
+}
+
+.textwhite {
+    color: white;
+}
+
+.graytext {
+    color: gainsboro;
+}
+
+
+.boxsocial {
+    width: 200px;
+    background-color: transparent;
+    padding: 10px;
+    border: 1px solid rgb(186, 181, 181);
+    border-radius: 5px;
+    display: inline-block;
+    margin-right: 5%;
+}
+
+.reddotdiv {
+    background-color: red;
+    position: relative;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+}
+
+.reddotarrow {
+    position: relative;
+    left: 5px;
+    font-size: xx-large;
+    top: -13px;
+}
+
+.mainheadingtext {
+    font-size: 32px;
+}
+
+/* About me section CSs ends */
+/* Work Services Section CSS starts */
+
+.servicesbox {
+    border: 1px solid rgb(128, 128, 128, 0.5);
+    padding: 15px;
+    margin-right: 2.2%;
+    display: inline-block;
+}
+
+.servicesbox:hover {
+    box-shadow: -1px -1px 10px 1px gray;
+}
+
+.logoipsumicon {
+    width: 150px;
+    height: 35px;
+    opacity: 0.4;
+    margin-top: 20px;
+    display: inline-block;
+    margin-right: 7%;
+}
+
+/* Work Services Section CSS ends */
+/* Working Project CSS starts here */
+.portfolioimg {
+    width: 100%;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.arrowsizestyle {
+    font-size: 24px;
+    margin: 0px;
+}
+
+.viewprojectstyle {
+    width: max-content;
+    display: inline-block;
+}
+
+.viewprojectstyle p {
+    margin: 5px 0px;
+}
+
+.portfoliodiv {
+    width: 47%;
+    display: inline-block;
+    margin: 20px 0px 20px 0px;
+}
+
+.portfoliodiv:hover img {
+
+    box-shadow: -1px -1px 10px 1px gray;
+
+}
+
+
+/* Working Porject CSS over here */
+
+.sectionstyle {
+    margin: 20px auto;
+    max-width: 80%;
+    padding: 40px 0px;
+}
+
+
+.footerstyle {
+    margin: 20px auto;
+    max-width: 80%;
+    padding: 0px 0px;
+}
+
+.progressbar {
+    /*progress bar css */
+
+    position: relative;
+    width: 100%;
+    height: 10px;
+    border-radius: 10px;
+    background-color: rgb(195, 196, 198);
+}
+
+.girlrightpic {
+    float: right;
+    border-radius: 30px;
+    width: 40%;
+    margin-right: 5%;
+    height: 500px;
+}
+
+.progressfill {
+    width: 50%;
+    height: 100%;
+    background-color: red;
+}
+
+.progresstext {
+    top: -20px;
+    position: absolute;
+    left: 48%;
+
+}
+
+/* Progress Bar css ends*/
+
+.progressfill1 {
+    width: 95%;
+    height: 100%;
+    background-color: red;
+}
+
+.progresstext1 {
+    top: -20px;
+    position: absolute;
+    left: 93%;
+
+}
+
+.progressfill2 {
+    width: 85%;
+    height: 100%;
+    background-color: red;
+}
+
+.progresstext2 {
+    top: -20px;
+    position: absolute;
+    left: 83%;
+
+}
+
+
+.progressfill3 {
+    width: 80%;
+    height: 100%;
+    background-color: red;
+}
+
+.progresstext3 {
+    top: -20px;
+    position: absolute;
+    left: 78%;
+
+}
+
+/* Plans page css starts here */
+.sectionplan {
+    background-color: black;
+    padding-bottom: 15px;
+    margin-top: 10px;
+}
+
+.redarrowplan {
+    font-size: 40px;
+    color: white;
+    position: absolute;
+    bottom: -45px;
+    left: 5px;
+}
+
+.plansdiv {
+
+    width: 25%;
+    border: 1px solid white;
+    margin-top: 25px;
+    border-radius: 15px;
+    padding: 25px;
+    display: inline-block;
+}
+
+.plansdiv:hover {
+    transform: scale(105%);
+    box-shadow: -1px -1px 10px 1px gray;
+
+}
+
+.redbuttondivs {
+    width: 25px;
+    margin: 20px 0px 0px 20px;
+    height: 25px;
+    background-color: red;
+    border-radius: 15px;
+    position: relative;
+}
+
+/* Testimonial div css starts */
+.testimonialblock1 {
+    padding: 10px;
+    width: 45%;
+    height: max-content;
+    display: inline-block;
+}
+
+.testimonialblock2 {
+    width: 45%;
+    height: max-content;
+    display: inline-block;
+    margin-left: 5%;
+    padding: 10px;
+}
+
+.testimonialblockimg {
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.testimonialblockimg img {
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+}
+
+.testimonialblock2:hover {
+    box-shadow: 1px 5px 5px 2px gray;
+}
+
+.testimonialblock1:hover {
+    box-shadow: 1px 5px 5px 2px gray;
+}
+
+.bulletss {
+    width: 10px;
+    height: 10px;
+    border-radius: 15px;
+    background-color: black;
+    display: inline-block;
+    margin: 10px;
+    border: 3px solid white;
+}
+
+.textheading {
+    font-weight: bold;
+    font-size: 40px;
+
+}
+
+.bulletss:hover {
+
+
+    border: 3px solid red;
+}
+
+/*  Testimonial Div ends here*/
+/* Block div css starts */
+.blogdiv {
+    width: 30%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.subheadingstyle {
+    opacity: 0.4;
+    font-size: 14px;
+}
+
+.bulletss1 {
+    width: 10px;
+    height: 10px;
+    border-radius: 15px;
+    background-color: white;
+    display: inline-block;
+    margin: 10px;
+    border: 3px solid black;
+}
+
+.bulletss1:hover {
+    border: 3px solid red;
+}
+
+/* Block Div css ends */
+/* Form Div css starts */
+.inputfield {
+    padding: 10px 5px;
+    width: 250px;
+
+}
+
+form>.alignright {
+    margin-right: 30%;
+}
+
+.marginprop {
+    margin-left: 19%;
+}
+
+.blogdiv:hover img {
+
+    box-shadow: 1px 2px 5px 1px gray;
+}
+
+.sharediv {
+    display: inline-block;
+    vertical-align: center;
+    width: 38%;
+}
+
+.detailsdivstyle {
+    width: 60%;
+    height: 100%;
+    display: inline-block;
+}
+
+.shareiconmargin {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.buttonshare {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    padding: 10px;
+    display: inline-block;
+}
+
+.buttonsharehandles:hover {
+    transform: scale(1.1);
+}
+
+.iconstyle {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.sendmessagediv {
+
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    color: red;
+    background-color: black;
+    border-radius: 30px;
+    padding: 5px;
+    position: absolute;
+}
+
+.sendmessagediv p {
+    position: relative;
+    left: 10px;
+    top: -8px;
+    width: max-content;
+}
+
+.buttonsharehandles {
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    border: none;
+    padding: 3px;
+    display: inline-block;
+}
+
+.sharehandles {
+    margin-top: 35px;
+}
+/* Form div css ends */
